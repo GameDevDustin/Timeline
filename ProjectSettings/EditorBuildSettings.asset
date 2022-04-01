@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/TimelineScene.unity
+    guid: 1eeab915cb24e2f4cb297f9bba4acd92
+  - enabled: 0
+    path: Assets/Scenes/StarfighterScene.unity
+    guid: 9da2e0f03d1fe584d8315eb1ce6af806
+  - enabled: 1
+    path: Assets/Scenes/Character.unity
+    guid: 5dcd19558c024394fbae7011828b0798
   m_configObjects: {}
