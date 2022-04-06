@@ -34,13 +34,13 @@ public class TriggerLoot : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if(_directorsControlScript.chestIsOpen == true)
-        {
-            _directorsControlScript.CloseChest();
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if(_directorsControlScript.chestIsOpen == true)
+    //    {
+    //        _directorsControlScript.CloseChest();
+    //    }
+    //}
 
     private void DoNullChecks()
     {

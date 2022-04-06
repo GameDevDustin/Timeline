@@ -556,6 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633616123}
   - component: {fileID: 633616124}
+  - component: {fileID: 633616125}
   m_Layer: 0
   m_Name: Directors
   m_TagString: DirectorControl
@@ -594,6 +595,36 @@ MonoBehaviour:
   chestIsOpen: 0
   openChestDirector: {fileID: 1155615023}
   closeChestDirector: {fileID: 763014458}
+--- !u!114 &633616125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633616122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: de6bc66ec282aa440bf43e8b03731106, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 633616124}
+          m_TargetAssemblyTypeName: DirectorsControl, Assembly-CSharp
+          m_MethodName: CloseChest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &763014456
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +796,12 @@ PlayableDirector:
     value: {fileID: 1585426025}
   - key: {fileID: 1064502956639851227, guid: 733fcbd8ab0279144980212280fe78f2, type: 2}
     value: {fileID: 315398880}
+  - key: {fileID: -7091610443879675272, guid: 733fcbd8ab0279144980212280fe78f2, type: 2}
+    value: {fileID: 633616125}
+  - key: {fileID: -2248263841108328794, guid: 733fcbd8ab0279144980212280fe78f2, type: 2}
+    value: {fileID: 1376727455}
+  - key: {fileID: -7245032768523528010, guid: 733fcbd8ab0279144980212280fe78f2, type: 2}
+    value: {fileID: 1761244939}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1288261370
